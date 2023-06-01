@@ -180,7 +180,7 @@ $gradint-bg : linear-gradient(180deg, #FFDFDF 0%, rgba(205, 209, 251, 0) 113.08%
     line-height: 20px;
     font-weight: 500;
     color: #FFFFFF;
-    border: 3px solid $black-color;
+    border: 2px solid $black-color;
     border-radius: 8px;
     box-shadow: 0 0 0 #fec1958c;
     transition: all .3s ease-in-out;
@@ -254,8 +254,8 @@ $gradint-bg : linear-gradient(180deg, #FFDFDF 0%, rgba(205, 209, 251, 0) 113.08%
     &:hover {
         background: transparent;
         color: #000000;
-        box-shadow: 0 0 10px $black-color;
-        border: 3px solid $black-color;
+        box-shadow: 0 0 2px $black-color;
+        border: 2px solid $black-color;
 
         .star-1 {
             position: absolute;
@@ -1505,7 +1505,7 @@ $gradint-bg : linear-gradient(180deg, #FFDFDF 0%, rgba(205, 209, 251, 0) 113.08%
 //about page start
 .moments {
     .main-content {
-        padding: 100px 0px;
+        padding: 100px 0px 0px 0px;
         animation: drop-in 1000ms ease 500ms backwards;
 
         @keyframes drop-in {
@@ -1541,7 +1541,7 @@ $gradint-bg : linear-gradient(180deg, #FFDFDF 0%, rgba(205, 209, 251, 0) 113.08%
                 .cheerri {
                     position: absolute;
                     bottom: 75px;
-                    right: 106px;
+                    right: 100px;
                     width: 86px;
                     height: 86px;
                 }
@@ -1582,7 +1582,6 @@ $gradint-bg : linear-gradient(180deg, #FFDFDF 0%, rgba(205, 209, 251, 0) 113.08%
                     transition: all 0.3s;
                     width: 100%;
                     height: 100%;
-                    filter: drop-shadow(0px 7px 13px rgba(0, 0, 0, 0.25));
                     transition: 0.5s;
                     transform-style: preserve-3d;
                     // transform: scale(1);
